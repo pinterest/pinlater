@@ -1,0 +1,44 @@
+{
+    "shards": [
+        {
+            "name": "1",
+            "shardConfig": {
+                "master": {
+                    "host": "localhost",
+                    "port": 6379
+                },
+                "slave": {
+                    "host": "localhost",
+                    "port": 6379
+                }
+            }
+        },
+        {
+            "name": "2",
+            "shardConfig": {
+                "master": {
+                    "host": "localhost",
+                    "port": 6379
+                },
+                "slave": {
+                    "host": "localhost",
+                    "port": 6379
+                }
+            }
+        },
+        {
+            "name": "3",
+            "shardConfig": {
+                "master": {
+                    "host": "localhost",
+                    "port": 6379
+                },
+                "slave": {
+                    "host": "localhost",
+                    "port": 6379
+                },
+                "dequeueOnly": true
+            }
+        }
+    ]
+}

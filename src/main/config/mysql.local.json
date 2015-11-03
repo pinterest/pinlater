@@ -1,0 +1,39 @@
+{
+    "pinlaterlocaldb001": {
+        "master": {
+            "host": "localhost",
+            "port": 3306
+        },
+        "slave": {
+            "host": "localhost",
+            "port": 3306
+        },
+        "user": "root",
+        "passwd": ""
+    },
+    "pinlaterlocaldb002": {
+        "master": {
+            "host": "localhost",
+            "port": 3306
+        },
+        "slave": {
+            "host": "localhost",
+            "port": 3306
+        },
+        "user": "root",
+        "passwd": ""
+    },
+    "pinlaterlocaldb003": {
+        "master": {
+            "host": "localhost",
+            "port": 3306
+        },
+        "slave": {
+            "host": "localhost",
+            "port": 3306
+        },
+        "user": "root",
+        "passwd": "",
+        "dequeueOnly": true
+    }
+}

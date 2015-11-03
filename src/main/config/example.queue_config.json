@@ -1,0 +1,22 @@
+{
+  "queues": [
+    {
+      "name": "pinlater_test_queue",
+      "queueConfig": {
+        "maxJobsPerSecond": 100
+      }
+    },
+    {
+      "name": "pinlater_test_slow_queue",
+      "queueConfig": {
+        "maxJobsPerSecond": 0.1
+      }
+    },
+    {
+      "name": "pinlater_test_paused_queue",
+      "queueConfig": {
+        "maxJobsPerSecond": 0
+      }
+    }
+  ]
+}
