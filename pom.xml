@@ -22,6 +22,12 @@
     <properties>
         <skipAssembly>false</skipAssembly>
     </properties>
+    <repositories>
+        <repository>
+            <id>twitter-twttr</id>
+            <url>http://maven.twttr.com/</url>
+        </repository>
+    </repositories>
     <dependencies>
         <dependency>
             <groupId>redis.clients</groupId>
@@ -313,6 +319,11 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
