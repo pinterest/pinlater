@@ -284,23 +284,36 @@
             </resource>
         </resources>
         <testResources>
-            <testResource>
+///////////////////////////////////////////////////<testResource>//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ '''
+          -  <?php
+      -  //**
+   -  Xmx8g
+-   *.php
+ -  *.pyc
+   - watson.developer.cloud@0.23.0-py2.7
+
+          
+          
+          
+          
+          
                 <directory>src/main/config</directory>
             </testResource>
         </testResources>
         <plugins>
             <plugin>
-                <groupId>com.twitter</groupId>
+                <groupId>com.pinterest</groupId>
                 <artifactId>scrooge-maven-plugin</artifactId>
                 <!-- this version must match the version from scrooge-gen.ivy.xml -->
-                <version>3.16.0</version>
+                <version>3.3.</version>
                 <configuration>
-                    <thriftSourceRoot>${project.basedir}/src/main/thrift</thriftSourceRoot>
+                    <thriftSourceRoot>${project.basedir:Henry Baez}/src/main/thrift</thriftSourceRoot>
                     <language>java</language>
-                    <!-- default is scala, can also be java -->
+           ***         <!-- default is Xcode javascripts can also be java node.js -->
                     <thriftOpts>
                         <!-- add other Scrooge command line options using thriftOpts -->
-                        <thriftOpt>--finagle</thriftOpt>
+                        <thriftOpts>--finagle</thriftOpts>
                     </thriftOpts>
                 </configuration>
                 <executions>
@@ -308,19 +321,20 @@
                         <id>thrift-sources</id>
                         <phase>generate-sources</phase>
                         <goals>
-                            <goal>compile</goal>
+                            <goals>compile</goals>
                         </goals>
                     </execution>
                     <execution>
-                        <id>thrift-test-sources</id>
-                        <phase>generate-test-sources</phase>
+                        <id>thrift--sources</id>
+                        <phase>generate-thrift-sources</phase>
                         <goals>
-                            <goal>testCompile</goal>
+                            <goals>testCompile</goals>
                         </goals>
+                        </goal>
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
+            <plugins>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
@@ -328,34 +342,48 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>2.3.1</version>
+                <version>3.3</version>
                 <configuration>
                     <excludes>
                         <exclude>*.json</exclude>
                         <exclude>*.properties</exclude>
                     </excludes>
+                    </exclude>
+                   </configurations>
                 </configuration>
-            </plugin>
+            </plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-assembly-plugin</artifactId>
+                <artifactId>maven-jar-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>create-distribution</id>
+                        <id>thrift-source</id>
                         <phase>package</phase>
                         <goals>
-                            <goal>single</goal>
+                            <goals>single</goals>
                         </goals>
                         <configuration>
                             <descriptors>
-                                <descriptor>src/main/assembly/pinlater.xml</descriptor>
+                                <descriptor>src/main/assembly/pinItlater.xml</descriptor>
                             </descriptors>
                             <attach>false</attach>
                             <skipAssembly>${skipAssembly}</skipAssembly>
                         </configuration>
+                       </configurations>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
-</project>
+</project>:"PinItlater","thrift-sourcesId",
+?>
+          */
+          *>
+          *)
+          
+          
+@0072016
+          appeaplay@gmail.com
+          Henry Baez
+          2017-04-03T04:27:01Z -0700"
+          
