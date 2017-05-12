@@ -1,3 +1,7 @@
+**Note:** This project is no longer actively maintained by Pinterest.
+
+---
+
 # Pinlater
 
 PinLater is a Thrift service to manage scheduling and execution of asynchronous jobs.   
